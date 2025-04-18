@@ -25,16 +25,16 @@ const ContactForm = () => {
 
 		try {
 			const result = await emailjs.send(
-				'service_6dh4xap',
-				'template_a0j4wvo',
+				'service_iv6u2iv',
+				'template_t9amkox',
 				{
 					from_name: formData.name,
 					from_email: formData.email,
 					subject: formData.subject,
 					message: formData.message,
-					to_email: 'anshuldhakad00@gmail.com',
+					to_email: 'Nitindhakad00@gmail.com',
 				},
-				'5HkYJLAnQOsg10XLp'
+				'gb66T61MYpGM6_f6S'
 			);
 
 			if (result.status === 200) {

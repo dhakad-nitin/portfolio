@@ -8,12 +8,12 @@ const contacts = [
   },
   {
     id: 2,
-    name: "anshuldhakad00@gmail.com",
+    name: "dnitin762@gmail.com",
     icon: <FiMail />,
   },
   {
     id: 3,
-    name: "+91-7803914079",
+    name: "+91-8103462319",
     icon: <FiPhone />,
   },
 ];

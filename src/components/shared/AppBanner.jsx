@@ -70,11 +70,10 @@ const AppBanner = () => {
       className="flex flex-col sm:justify-between items-center sm:flex-row mt-12 md:mt-2"
     >
       <div className="w-full md:w-1/2 text-center sm:text-left">
-        <h1 className=" font-general-semibold text-2xl lg:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase">
-          Hi, I am Anshul
+        <h1 className="font-general-semibold text-2xl lg:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase">
+          Hi, I am Nitin
         </h1>
-        <div className="mt-4">
-          {" "}
+        <div className="mt-4 flex justify-center sm:justify-start">
           <motion.h1
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -83,13 +82,16 @@ const AppBanner = () => {
               duration: 0.9,
               delay: 0.1,
             }}
-            className="font-general-semibold text-2xl lg:text-3xl xl:text-4xl text-center sm:text-left text-blue-600 dark:text-blue-300 uppercase"
+            className="font-general-semibold text-2xl lg:text-3xl xl:text-4xl text-center sm:text-left text-blue-600 dark:text-blue-300 uppercase min-h-[2.5em] flex items-center justify-center sm:justify-start"
           >
             <TypingComponent
               phrases={[
-                "Data Analyst",
-                "Economist",
-                "Marketing enthusiast",
+                "Software Developer",
+                "AI/ML Developer",
+                "Web Developer",
+                "Full Stack Developer",
+                "Data Scientist",
+                "AI Engineer",
               ]}
             />
           </motion.h1>
@@ -105,8 +107,8 @@ const AppBanner = () => {
           className="flex justify-center sm:block"
         >
           <a
-            download="Anshul-Resume.pdf"
-            href="/files/Anshul_Dhakad_Resume.pdf"
+            download="Nitin-Resume.pdf"
+            href="/files/Nitin_Dhakad_Resume.pdf"
             className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-8 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
             aria-label="Download Resume"
           >

@@ -1,0 +1,21 @@
+/* Project Card Styles */
+.project-card {
+  position: relative;
+  z-index: 1;
+}
+
+.project-card:hover {
+  z-index: 2;
+}
+
+.project-image-container {
+  position: relative;
+  z-index: 1;
+  transform-origin: center center;
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+.project-card:hover .project-image-container {
+  z-index: 3;
+} 

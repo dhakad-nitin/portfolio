@@ -1,21 +1,20 @@
 import { FiGithub, FiLinkedin, FiGlobe } from "react-icons/fi";
-import AppFooterCopyright from "./AppFooterCopyright";
 
 const socialLinks = [
   {
     id: 1,
     icon: <FiGlobe />,
-    url: "https://anshuldhakad.vercel.app/",
+    url: "https://Nitindhakad.vercel.app/",
   },
   {
     id: 2,
     icon: <FiGithub />,
-    url: "https://github.com/dhakadanshul",
+    url: "https://github.com/dhakad-nitin",
   },
   {
     id: 3,
     icon: <FiLinkedin />,
-    url: "https://www.linkedin.com/in/anshul-dhakad//",
+    url: "https://www.linkedin.com/in/nitin-dhakad-b0a1a91a1/",
   },
 ];
 
@@ -42,7 +41,6 @@ const AppFooter = () => {
           </ul>
         </div>
 
-        <AppFooterCopyright />
       </div>
     </div>
   );

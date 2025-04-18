@@ -1,4 +1,3 @@
-import SeoImage from "../../images/Skills/seo.png";
 
 const AboutmySkills = () => {
   return (
@@ -7,238 +6,344 @@ const AboutmySkills = () => {
         My Skills
       </p>
       <div className="container m-auto place-items-center gap-y-12 grid grid-cols-2 md:grid-cols-4">
-        {/* SEO */}
-        <div className="bg-white bg-opacity-30 rounded-lg p-4 pb-2 shadow-lg transform hover:scale-125 transition duration-300 w-36">
+        {/* Python */}
+        <div className="group relative">
           <div className="flex flex-col items-center">
-            <img
-              width="90"
-              height="90"
-              src="https://images.unsplash.com/photo-1562577309-2592ab84b1bc?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2VvfGVufDB8fDB8fHww"
-              alt="SEO logo"
-              className="mb-2"
-            />
-            <p className="text-center font-medium text-sm text-primary-dark dark:text-primary-light">SEO</p>
+            <div className="w-24 h-24 flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-6">
+              <img
+                width="90"
+                height="90"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                alt="Python logo"
+                className="filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <p className="absolute -bottom-6 text-center font-medium text-sm text-primary-dark dark:text-primary-light opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-y-1">
+              Python
+            </p>
           </div>
         </div>
-        {/* MS Excel */}
-        <div className="bg-white bg-opacity-30 rounded-lg p-4 pb-2 shadow-lg transform hover:scale-125 transition duration-300 w-36">
+        {/* Javascript */}
+        <div className="group relative">
           <div className="flex flex-col items-center">
-            <img
-              width="90"
-              height="90"
-              src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg"
-              alt="MS Excel logo"
-              className="mb-2"
-            />
-            <p className="text-center font-medium text-sm text-primary-dark dark:text-primary-light">MS Excel</p>
+            <div className="w-24 h-24 flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:-rotate-6">
+              <img
+                width="90"
+                height="90"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                alt="Javascript logo"
+                className="filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <p className="absolute -bottom-6 text-center font-medium text-sm text-primary-dark dark:text-primary-light opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-y-1">
+              Javascript
+            </p>
+          </div>
+        </div>
+        {/* Java */}
+        <div className="group relative">
+          <div className="flex flex-col items-center">
+            <div className="w-24 h-24 flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-6">
+              <img
+                width="90"
+                height="90"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                alt="Java logo"
+                className="filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <p className="absolute -bottom-6 text-center font-medium text-sm text-primary-dark dark:text-primary-light opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-y-1">
+              Java
+            </p>
+          </div>
+        </div>
+        {/* C++ */}
+        <div className="group relative">
+          <div className="flex flex-col items-center">
+            <div className="w-24 h-24 flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:-rotate-6">
+              <img
+                width="90"
+                height="90"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                alt="C++ logo"
+                className="filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <p className="absolute -bottom-6 text-center font-medium text-sm text-primary-dark dark:text-primary-light opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-y-1">
+              C++
+            </p>
+          </div>
+        </div>
+        {/* React */}
+        <div className="group relative">
+          <div className="flex flex-col items-center">
+            <div className="w-24 h-24 flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-6">
+              <img
+                width="90"
+                height="90"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                alt="React logo"
+                className="filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <p className="absolute -bottom-6 text-center font-medium text-sm text-primary-dark dark:text-primary-light opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-y-1">
+              React
+            </p>
+          </div>
+        </div>
+        {/* Node.js */}
+        <div className="group relative">
+          <div className="flex flex-col items-center">
+            <div className="w-24 h-24 flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:-rotate-6">
+              <img
+                width="90"
+                height="90"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                alt="Node.js logo"
+                className="filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <p className="absolute -bottom-6 text-center font-medium text-sm text-primary-dark dark:text-primary-light opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-y-1">
+              Node.js
+            </p>
+          </div>
+        </div>
+        {/* FastAPI */}
+        <div className="group relative">
+          <div className="flex flex-col items-center">
+            <div className="w-24 h-24 flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-6">
+              <img
+                width="90"
+                height="90"
+                src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png"
+                alt="FastAPI logo"
+                className="filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <p className="absolute -bottom-6 text-center font-medium text-sm text-primary-dark dark:text-primary-light opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-y-1">
+              FastAPI
+            </p>
+          </div>
+        </div>
+        {/* Tailwind CSS */}
+        <div className="group relative">
+          <div className="flex flex-col items-center">
+            <div className="w-24 h-24 flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:-rotate-6">
+              <img
+                width="90"
+                height="90"
+                src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+                alt="Tailwind CSS logo"
+                className="filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <p className="absolute -bottom-6 text-center font-medium text-sm text-primary-dark dark:text-primary-light opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-y-1">
+              Tailwind CSS
+            </p>
+          </div>
+        </div>
+        {/* Autogen */}
+        <div className="group relative">
+          <div className="flex flex-col items-center">
+            <div className="w-24 h-24 flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-6">
+              <img
+                width="90"
+                height="90"
+                src="https://microsoft.github.io/autogen/stable//_static/logo.svg"
+                alt="Autogen logo"
+                className="filter grayscale hover:grayscale-0 transition-all duration-300 dark:invert"
+              />
+            </div>
+            <p className="absolute -bottom-6 text-center font-medium text-sm text-primary-dark dark:text-primary-light opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-y-1">
+              Microsoft Autogen
+            </p>
+          </div>
+        </div>
+        {/* Hugging Face */}
+        <div className="group relative">
+          <div className="flex flex-col items-center">
+            <div className="w-24 h-24 flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:-rotate-6">
+              <img
+                width="90"
+                height="90"
+                src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
+                alt="Hugging Face logo"
+                className="filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <p className="absolute -bottom-6 text-center font-medium text-sm text-primary-dark dark:text-primary-light opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-y-1">
+              Hugging Face
+            </p>
+          </div>
+        </div>
+        {/* LangGraph */}
+        <div className="group relative">
+          <div className="flex flex-col items-center">
+            <div className="w-24 h-24 flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:-rotate-6">
+              <img
+                width="90"
+                height="90"
+                src="https://brandlogos.net/wp-content/uploads/2025/04/langgraph-logo_brandlogos.net_nezpd.png"
+                alt="LangGraph logo"
+                className="filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <p className="absolute -bottom-6 text-center font-medium text-sm text-primary-dark dark:text-primary-light opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-y-1">
+              LangGraph
+            </p>
+          </div>
+        </div>
+        {/* CrewAI */}
+        <div className="group relative">
+          <div className="flex flex-col items-center">
+            <div className="w-24 h-24 flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-6">
+              <img
+                width="90"
+                height="90"
+                src="https://miro.medium.com/v2/resize:fit:1400/0*-7HC-GJCxjn-Dm7i.png"
+                alt="CrewAI logo"
+                className="filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <p className="absolute -bottom-6 text-center font-medium text-sm text-primary-dark dark:text-primary-light opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-y-1">
+              CrewAI
+            </p>
+          </div>
+        </div>
+        {/* Google Cloud Platform */}
+        <div className="group relative">
+          <div className="flex flex-col items-center">
+            <div className="w-24 h-24 flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-6">
+              <img
+                width="90"
+                height="90"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"
+                alt="Google Cloud Platform logo"
+                className="filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <p className="absolute -bottom-6 text-center font-medium text-sm text-primary-dark dark:text-primary-light opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-y-1">
+              Google Cloud Platform
+            </p>
+          </div>
+        </div>
+        {/* GCP's Vertex AI */}
+        <div className="group relative">
+          <div className="flex flex-col items-center">
+            <div className="w-24 h-24 flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:-rotate-6">
+              <img
+                width="90"
+                height="90"
+                src="https://cdn.prod.website-files.com/64b3ee21cac9398c75e5d3ac/6576d498ba4e1da8271c0a52_Vertex%20Full.webp"
+                alt="Vertex AI logo"
+                className="filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <p className="absolute -bottom-6 text-center font-medium text-sm text-primary-dark dark:text-primary-light opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-y-1">
+              Vertex AI
+            </p>
+          </div>
+        </div>
+        {/* TRL */}
+        <div className="group relative">
+          <div className="flex flex-col items-center">
+            <div className="w-24 h-24 flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-6">
+              <img
+                width="90"
+                height="90"
+                src="https://www.deepchecks.com/wp-content/uploads/2024/09/logo-trl.png"
+                alt="TRL logo"
+                className="filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <p className="absolute -bottom-6 text-center font-medium text-sm text-primary-dark dark:text-primary-light opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-y-1">
+              TRL
+            </p>
+          </div>
+        </div>
+        {/* OpenAI */}
+        <div className="group relative">
+          <div className="flex flex-col items-center">
+            <div className="w-24 h-24 flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:-rotate-6">
+              <img
+                width="90"
+                height="90"
+                src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg"
+                alt="OpenAI logo"
+                className="filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <p className="absolute -bottom-6 text-center font-medium text-sm text-primary-dark dark:text-primary-light opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-y-1">
+              OpenAI
+            </p>
           </div>
         </div>
         {/* SQL */}
-        <div className="bg-white bg-opacity-30 rounded-lg p-4 pb-2 shadow-lg transform hover:scale-125 transition duration-300 w-36">
+        <div className="group relative">
           <div className="flex flex-col items-center">
-            <img
-              width="90"
-              height="90"
-              src="https://www.svgrepo.com/show/331760/sql-database-generic.svg"
-              alt="SQL logo"
-              className="mb-2"
-            />
-            <p className="text-center font-medium text-sm text-primary-dark dark:text-primary-light">SQL</p>
+            <div className="w-24 h-24 flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-6">
+              <img
+                width="90"
+                height="90"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                alt="SQL logo"
+                className="filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <p className="absolute -bottom-6 text-center font-medium text-sm text-primary-dark dark:text-primary-light opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-y-1">
+              SQL
+            </p>
           </div>
         </div>
-        {/* Power BI */}
-        <div className="bg-white bg-opacity-30 rounded-lg p-4 pb-2 shadow-lg transform hover:scale-125 transition duration-300 w-36">
+        {/* MongoDB */}
+        <div className="group relative">
           <div className="flex flex-col items-center">
-            <img
-              width="90"
-              height="90"
-              src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"
-              alt="Power BI logo"
-              className="mb-2"
-            />
-            <p className="text-center font-medium text-sm text-primary-dark dark:text-primary-light">Power BI</p>
+            <div className="w-24 h-24 flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:-rotate-6">
+              <img
+                width="90"
+                height="90"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                alt="MongoDB logo"
+                className="filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <p className="absolute -bottom-6 text-center font-medium text-sm text-primary-dark dark:text-primary-light opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-y-1">
+              MongoDB
+            </p>
           </div>
         </div>
-        {/* Tableau */}
-        <div className="bg-white bg-opacity-30 rounded-lg p-4 pb-2 shadow-lg transform hover:scale-125 transition duration-300 w-36">
+        {/* Git */}
+        <div className="group relative">
           <div className="flex flex-col items-center">
-            <img
-              width="90"
-              height="90"
-              src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg"
-              alt="Tableau logo"
-              className="mb-2"
-            />
-            <p className="text-center font-medium text-sm text-primary-dark dark:text-primary-light">Tableau</p>
+            <div className="w-24 h-24 flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-6">
+              <img
+                width="90"
+                height="90"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                alt="Git logo"
+                className="filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <p className="absolute -bottom-6 text-center font-medium text-sm text-primary-dark dark:text-primary-light opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-y-1">
+              Git
+            </p>
           </div>
         </div>
-        {/* Data Analytics */}
-        <div className="bg-white bg-opacity-30 rounded-lg p-4 pb-2 shadow-lg transform hover:scale-125 transition duration-300 w-36">
+        {/* GitHub */}
+        <div className="group relative">
           <div className="flex flex-col items-center">
-            <img
-              width="90"
-              height="90"
-              src="https://cdn-icons-png.flaticon.com/512/2821/2821637.png"
-              alt="Data Analytics logo"
-              className="mb-2"
-            />
-            <p className="text-center font-medium text-sm text-primary-dark dark:text-primary-light">Data Analytics</p>
-          </div>
-        </div>
-        {/* Data Visualization */}
-        <div className="bg-white bg-opacity-30 rounded-lg p-4 pb-2 shadow-lg transform hover:scale-125 transition duration-300 w-36">
-          <div className="flex flex-col items-center">
-            <img
-              width="90"
-              height="90"
-              src="https://cdn-icons-png.flaticon.com/512/2382/2382533.png"
-              alt="Data Visualization logo"
-              className="mb-2"
-            />
-            <p className="text-center font-medium text-sm text-primary-dark dark:text-primary-light">Data Visualization</p>
-          </div>
-        </div>
-        {/* Adobe Photoshop */}
-        <div className="bg-white bg-opacity-30 rounded-lg p-4 pb-2 shadow-lg transform hover:scale-125 transition duration-300 w-36">
-          <div className="flex flex-col items-center">
-            <img
-              width="90"
-              height="90"
-              src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg"
-              alt="Adobe Photoshop logo"
-              className="mb-2"
-            />
-            <p className="text-center font-medium text-sm text-primary-dark dark:text-primary-light">Adobe Photoshop</p>
-          </div>
-        </div>
-        {/* Social Media Marketing */}
-        <div className="bg-white bg-opacity-30 rounded-lg p-4 pb-2 shadow-lg transform hover:scale-125 transition duration-300 w-36">
-          <div className="flex flex-col items-center">
-            <img
-              width="90"
-              height="90"
-              src="https://cdn-icons-png.flaticon.com/512/2065/2065157.png"
-              alt="Social Media Marketing logo"
-              className="mb-2"
-            />
-            <p className="text-center font-medium text-sm text-primary-dark dark:text-primary-light">Social Media Marketing</p>
-          </div>
-        </div>
-        {/* Digital Marketing */}
-        <div className="bg-white bg-opacity-30 rounded-lg p-4 pb-2 shadow-lg transform hover:scale-125 transition duration-300 w-36">
-          <div className="flex flex-col items-center">
-            <img
-              width="90"
-              height="90"
-              src="https://cdn-icons-png.flaticon.com/512/1055/1055666.png"
-              alt="Digital Marketing logo"
-              className="mb-2"
-            />
-            <p className="text-center font-medium text-sm text-primary-dark dark:text-primary-light">Digital Marketing</p>
-          </div>
-        </div>
-        {/* Project Management */}
-        <div className="bg-white bg-opacity-30 rounded-lg p-4 pb-2 shadow-lg transform hover:scale-125 transition duration-300 w-36">
-          <div className="flex flex-col items-center">
-            <img
-              width="90"
-              height="90"
-              src="https://cdn-icons-png.flaticon.com/512/1087/1087927.png"
-              alt="Project Management logo"
-              className="mb-2"
-            />
-            <p className="text-center font-medium text-sm text-primary-dark dark:text-primary-light">Project Management</p>
-          </div>
-        </div>
-        {/* Presentation */}
-        <div className="bg-white bg-opacity-30 rounded-lg p-4 pb-2 shadow-lg transform hover:scale-125 transition duration-300 w-36">
-          <div className="flex flex-col items-center">
-            <img
-              width="90"
-              height="90"
-              src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg"
-              alt="Presentation logo"
-              className="mb-2"
-            />
-            <p className="text-center font-medium text-sm text-primary-dark dark:text-primary-light">Presentation</p>
-          </div>
-        </div>
-        {/* MS Word */}
-        <div className="bg-white bg-opacity-30 rounded-lg p-4 pb-2 shadow-lg transform hover:scale-125 transition duration-300 w-36">
-          <div className="flex flex-col items-center">
-            <img
-              width="90"
-              height="90"
-              src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg"
-              alt="MS Word logo"
-              className="mb-2"
-            />
-            <p className="text-center font-medium text-sm text-primary-dark dark:text-primary-light">MS Word</p>
-          </div>
-        </div>
-        {/* Google Analytics */}
-        <div className="bg-white bg-opacity-30 rounded-lg p-4 pb-2 shadow-lg transform hover:scale-125 transition duration-300 w-36">
-          <div className="flex flex-col items-center">
-            <img
-              width="90"
-              height="90"
-              src="https://www.vectorlogo.zone/logos/google_analytics/google_analytics-icon.svg"
-              alt="Google Analytics logo"
-              className="mb-2"
-            />
-            <p className="text-center font-medium text-sm text-primary-dark dark:text-primary-light">Google Analytics</p>
-          </div>
-        </div>
-        {/* Hubspot */}
-        <div className="bg-white bg-opacity-30 rounded-lg p-4 pb-2 shadow-lg transform hover:scale-125 transition duration-300 w-36">
-          <div className="flex flex-col items-center">
-            <img
-              width="90"
-              height="90"
-              src="https://www.vectorlogo.zone/logos/hubspot/hubspot-icon.svg"
-              alt="Hubspot logo"
-              className="mb-2"
-            />
-            <p className="text-center font-medium text-sm text-primary-dark dark:text-primary-light">Hubspot</p>
-          </div>
-        </div>
-        {/* Salesforce */}
-        <div className="bg-white bg-opacity-30 rounded-lg p-4 pb-2 shadow-lg transform hover:scale-125 transition duration-300 w-36">
-          <div className="flex flex-col items-center">
-            <img
-              width="90"
-              height="90"
-              src="https://www.vectorlogo.zone/logos/salesforce/salesforce-icon.svg"
-              alt="Salesforce logo"
-              className="mb-2"
-            />
-            <p className="text-center font-medium text-sm text-primary-dark dark:text-primary-light">Salesforce</p>
-          </div>
-        </div>
-        {/* CRM */}
-        <div className="bg-white bg-opacity-30 rounded-lg p-4 pb-2 shadow-lg transform hover:scale-125 transition duration-300 w-36">
-          <div className="flex flex-col items-center">
-            <img
-              width="90"
-              height="90"
-              src="https://cdn-icons-png.flaticon.com/512/2175/2175377.png"
-              alt="CRM logo"
-              className="mb-2"
-            />
-            <p className="text-center font-medium text-sm text-primary-dark dark:text-primary-light">CRM</p>
-          </div>
-        </div>
-        {/* Google Workspace */}
-        <div className="bg-white bg-opacity-30 rounded-lg p-4 pb-2 shadow-lg transform hover:scale-125 transition duration-300 w-36">
-          <div className="flex flex-col items-center">
-            <img
-              width="90"
-              height="90"
-              src="https://seeklogo.com/images/G/google-workspace-logo-BAA53FE67C-seeklogo.com.png"
-              alt="Google Workspace logo"
-              className="mb-2"
-            />
-            <p className="text-center font-medium text-sm text-primary-dark dark:text-primary-light">Google Workspace</p>
+            <div className="w-24 h-24 flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:-rotate-6">
+              <img
+                width="90"
+                height="90"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                alt="GitHub logo"
+                className="filter grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
+            <p className="absolute -bottom-6 text-center font-medium text-sm text-primary-dark dark:text-primary-light opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-y-1">
+              GitHub
+            </p>
           </div>
         </div>
       </div>
