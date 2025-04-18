@@ -1,4 +1,4 @@
-import profileImage from "../../images/Profile.jpg";
+import profileImage from "../../images/pic.jpg";
 import { aboutMeData } from "../../data/aboutMeData";
 
 const AboutMeBio = () => {
