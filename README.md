@@ -2,7 +2,7 @@ React & TailwindCSS Portfolio - With Dark Mode
 A simple portfolio built with React and Tailwind CSS.
 
 Demo URL
-https://react-tailwindcss-portfolio-sec.vercel.app/
+
 
 Features
 React v18 with React Router v6
