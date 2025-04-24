@@ -1,6 +1,6 @@
 const selectOptions = [
-  "Research Paper",
-  "Regional Economic Analysis"
+  "Web Application",
+  "Mobile Application",
 ];
 
 const ProjectsFilter = ({ setSelectProject }) => {
